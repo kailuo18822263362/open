@@ -1,0 +1,527 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* 背景模块 */
+.outer_box {
+    width: 100%;
+    height: 100vh;
+    background-image: url('bei\ jing1.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+/* 搜索栏 */
+.sousuo{
+    /* padding-top: 180px; */
+    width:100%;
+    height:60px;
+    background-color: #2e2d2d;
+    /* background-color: rgb(0, 0, 0);
+    opacity: 0.5; */
+}
+
+
+/* 上角logo */
+.logo {
+    float: left;
+    margin: 5px;
+}
+
+
+
+/* 搜索框和搜索按钮 */
+.sousuo1{
+    width: 50%;
+    height: 50px;
+    background-color :#2e2d2d;
+    float: left;
+    margin: 5px;
+}
+
+
+
+/* 搜索框 */
+.input1 {
+    margin: 9px;
+    border: 1px solid rgb(154, 153, 153);
+    border-radius: 10px;
+    font-size: 18px;
+    float: left;
+    background-color: #676666;
+    color: rgb(255, 255, 255);
+}
+
+/* 搜索按钮 */
+.button1{
+    background-color:#5498c0;
+    color:white;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;			
+    border-radius: 5px;
+    margin: 9px;
+    float: left;
+}
+
+.button1:hover{
+    background-color: #a54b4a;
+}
+
+
+/* 右上角-加入按钮 */
+.tel {
+    background-color:#5abdf6;
+    color:white;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;			
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+
+}
+
+.tel:hover{
+    background-color: #a54b4a;
+}
+
+
+
+
+
+
+
+/* 通知栏 */
+.tongzhi {
+    width: 100%;
+    height: 210px;
+
+    margin: 10px 0px;
+}
+
+/* 通知框 */
+.tongzhi1 {
+    width: 50%;
+    height: 200px;
+    background-color: #aeafb0;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+    border: 5px solid rgb(96, 95, 95);
+}
+
+
+
+
+.xian {
+    width: 100%;
+    height: 40px;
+    background-color: #2e2d2d;
+
+}
+
+.remen-zi {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    float: left;
+    padding-top: 4px;
+}
+
+.xian1 {
+    width: 70%;
+    height: 40px;
+    float: left;
+}
+
+
+.remen-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #c6c6c6;
+    border-radius: 15px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 平面设计功能栏 */
+.pingmianshiji {
+    width: 98%;
+    height: 300px;
+    background-color: #e6e7e7;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 12, 12);
+    margin: 10px;
+    float: left;
+}
+
+.pingmianshiji1 {
+    width: 20%;
+    height: 300px;
+    background-color: #cbcecf;
+    border-radius: 30px;
+    color: #e6e7e7;
+    float: left;
+}
+
+.pingmianshiji1-h3 {
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #8abedc;
+    color: #000000;
+    margin: 90px 20px;
+    padding: 30px 50px;
+    text-align: center;
+
+
+}
+
+
+.pingmianshiji2 {
+    width: 10%;
+    height: 300px;
+    background-color: rgb(153, 153, 153);
+    float: left;
+    text-align: center;
+}
+
+
+.pingmianshiji3 {
+    width: 65%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 30px;
+    margin: 10px 10px 0px 0px;
+}
+
+
+
+.pingmianshiji-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #8bc4e7;
+    border-radius: 15px;
+    float: left;
+}
+
+
+/* Change the 1link color on hover */
+.pingmianshiji-web:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.yingshibianji {
+    width: 98%;
+    height: 200px;
+    background-color: #e6e7e7;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 12, 12);
+    margin: 10px;
+    float: left;
+}
+
+.yingshibianji1 {
+    width: 20%;
+    height: 200px;
+    background-color: #bdbdbd;
+    border-radius: 30px;
+    color: #e6e7e7;
+    float: left;
+}
+
+.yingshibianji1-h3 {
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #8abedc;
+    color: #000000;
+    margin: 40px 20px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.yingshibianji2 {
+    width: 10%;
+    height: 200px;
+    background-color: rgb(153, 153, 153);
+    float: left;
+    text-align: center;
+}
+
+.yingshibianji3 {
+    width: 65%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 30px;
+    margin: 10px 10px 0px 0px;
+}
+
+
+
+.yingshibianji-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #8bc4e7;
+    border-radius: 15px;
+    float: left;
+}
+
+
+/* Change the 1link color on hover */
+.yingshibianji-web:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.a3Dshiji {
+    width: 98%;
+    height: 200px;
+    background-color: #e6e7e7;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 12, 12);
+    margin: 10px;
+    float: left;
+}
+
+.a3Dshiji1 {
+    width: 20%;
+    height: 200px;
+    background-color: #bdbdbd;
+    border-radius: 30px;
+    color: #e6e7e7;
+    float: left;
+}
+
+.a3Dshiji-h3 {
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #8abedc;
+    color: #000000;
+    margin: 40px 20px;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.a3Dshiji2 {
+    width: 10%;
+    height: 200px;
+    background-color: rgb(153, 153, 153);
+    float: left;
+    text-align: center;
+}
+
+.a3Dshiji3 {
+    width: 65%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 30px;
+    margin: 10px 10px 0px 0px;
+}
+
+
+
+.a3Dshiji-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #8bc4e7;
+    border-radius: 15px;
+    float: left;
+}
+
+
+/* Change the 1link color on hover */
+.a3Dshiji-web:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* 平面设计功能栏 */
+.kaifazhipingtai {
+    width: 98%;
+    height: 300px;
+    background-color: #e6e7e7;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 12, 12);
+    margin: 10px;
+    float: left;
+}
+
+.kaifazhipingtai1 {
+    width: 20%;
+    height: 300px;
+    background-color: #cbcecf;
+    border-radius: 30px;
+    color: #e6e7e7;
+    float: left;
+}
+
+.kaifazhipingtai1-h3 {
+    width: 60%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #8abedc;
+    color: #000000;
+    margin: 90px 20px;
+    padding: 30px 50px;
+    text-align: center;
+
+
+}
+
+
+.kaifazhipingtai2 {
+    width: 10%;
+    height: 300px;
+    background-color: rgb(153, 153, 153);
+    float: left;
+    text-align: center;
+}
+
+
+.kaifazhipingtai3 {
+    width: 65%;
+    height: 50px;
+    background-color: #232323;
+    float: left;
+    border-radius: 30px;
+    margin: 10px 10px 0px 0px;
+}
+
+
+
+.kaifazhipingtai-web {
+    width: 100px;
+    height: 40px;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color : #8bc4e7;
+    border-radius: 15px;
+    float: left;
+}
+
+
+/* Change the 1link color on hover */
+.kaifazhipingtai-web:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+    
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+    
+.footer .row ul{
+    width:100%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+
+
+.end {
+    width: 100%;
+    float: left;
+}

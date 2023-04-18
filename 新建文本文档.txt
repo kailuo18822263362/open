@@ -1,0 +1,104 @@
+        <!-- <div class="sousuo2">
+            <h3>全网搜索框&emsp;:</h3>
+            <form>
+                <input type="text" class="input2" id="shuru2" value="HTML5教程" >
+            </form>
+            <button class="button2" onclick="Fun()">搜索</button>
+            <script>
+                function Fun(){
+                    var z = document.getElementById("shuru2").value;
+                    var map = "https://cn.bing.com/search?q="+ z ;
+                    window.open(map);
+                }
+            </script>
+        </div> -->
+
+
+
+
+
+    <div class="erjiweb">
+        <div class="daohanglan">
+            <ul>
+                <li><a href="fenlei-veb\home.html" >HOME</a></li>
+                <li><a href="fenlei-veb\pingmianshiji.html"  >平面设计</a></li>
+                <li><a href="fenlei-veb\yingshizhizuo.html"  >&emsp;&emsp;&emsp;&emsp;影视制作</a></li>
+                <li><a href="fenlei-veb\3dshiji.html" >&emsp;&emsp;&emsp;&emsp;3D设计</a></li>
+    
+                <li><a href="fenlei-veb\kaifazhipingtai.html" >开发者平台</a></li>
+                <li><a href="fenlei-veb\bogxiufu.html" >&emsp;&emsp;&emsp;&emsp;BOG修复</a></li>
+    
+                <li><a href="fenlei-veb\zaixiangongju.html" >在线工具</a></li>
+                <li><a href="fenlei-veb\zhishidaohang.html" >知识导航</a></li>
+                <li><a href="fenlei-veb\remen.html" >热门</a></li>
+                <li><a href="fenlei-veb\ruanjianku.html" >软件库</a></li>
+                <li><a href="fenlei-veb\wangpanpojie.html" >网盘破解</a></li>
+            </ul>
+        </div>
+       
+        <div id="right">
+            <div>
+                <iframe src="fenlei-veb\home.html" id="container2"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+/* 左侧导航框 */
+.daohanglan {
+    width: 20%;
+    height: 650px;
+    background-color:rgba(0, 0, 0, 0.3);
+    float: left;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+/* 左侧导航按钮 */
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 200px;
+
+}
+  
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(37, 118, 161);
+    margin-bottom:8px;
+    border-radius: 15px;
+}
+  
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+
+/* 子网页 */
+#container2 {
+    width: 78%;
+    height: 650px;
+    float: right;
+    border-radius: 30px;
+    margin-top: 10px;
+}
